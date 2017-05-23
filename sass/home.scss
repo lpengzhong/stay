@@ -1,0 +1,44 @@
+@charset "UTF-8";
+/*css初始化*/
+html, input, textarea { font: normal 12px 'Century Gothic', 'Helvetica', 'Hiragino Sans GB W3', 'Microsoft YaHei', '微软雅黑', 'SimSun', '宋体', 'Heiti', '黑体', 'Arial', 'sans-serif';
+}
+body, button, ul, li, ol, p, dl, dd, h1, h2, h3, h4, h5, h6, img, iframe, form, input, textarea, td, section, article, aside, dl, dt, dd {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style-type: none;
+  font-weight: normal;
+}
+table { border-collapse: collapse; border-spacing: 0; }
+*:focus { outline: none; }
+a { text-decoration: none; }
+a:hover { color: #50c8d7; text-decoration: none; }
+i, em { font-style: normal; text-decoration: none; }
+img { border: 0; vertical-align: middle; }
+.w1150 { width: 1150px; margin: 0px auto; }
+.w1124 { width: 1124px; margin: 0px auto; }
+
+/*浮动*/
+.fl { float: left; }
+.fr { float: right; }
+.clearfix::before, .clearfix::after {
+  content: '';
+  display: block;
+  height: 0;
+  line-height: 0;
+  visibility: hidden;
+  clear: both;
+}
+.clearfix { zoom: 1; }
+$mainColor: #50c8d7;
+
+/*三角形*/
+.triangle {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  position: absolute;
+}
+/*css初始化完成*/
+
+
